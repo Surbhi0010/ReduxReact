@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    font-size: 50px;
+}
+.maincard{
+    height: 500%;
+    width: 100%;
+}
+.maincard:hover{
+    box-shadow: 0 8px 20px 0 rgb(32, 30, 30);
+}
+img{
+    border-radius: 5px 5px 0 0;
+    image-resolution: 250*250px;
+}
+.image{
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-contents{
+   padding: 2px 16px;
+}
+.borderbox{
+    box-shadow: 0 4px 8px 0 rgb(61, 57, 57);
+    transition: 0.3s; 
+    width: 40%; 
+    border-radius: 5px;
+}
